@@ -1,0 +1,1000 @@
+{"instruction": "what is disk space", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "what is my disk space", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "what is my cpu", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is ram", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "what is my ram", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output)", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check cpu usage", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output)", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check memory usage", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output)", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process chrome and kill it", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "open youtube in chrome", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "open github in chrome", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "open incognito window in chrome", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in desktop", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output)", "output": "There are X files in the specified directory."}
+{"instruction": "how many files are in documents", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output)", "output": "There are X files in the specified directory."}
+{"instruction": "delete entire system", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "format my disk", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "remove all files from root", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "format my disk please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my ram please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check memory usage please", "output": "{\"command\": \"vm_stat\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my cpu please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pkill -f node\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "check memory usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "open github in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://github.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "remove all files from root please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open incognito window in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" --args --incognito\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "check cpu usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "what is my disk usage please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is my disk usage (after command output) please", "output": "Based on the system output, here is the summarized usage information."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "delete entire system please", "output": "I cannot perform this action because it is unsafe."}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents please", "output": "{\"command\": \"ls ~/Documents | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}
+{"instruction": "what is ram please", "output": "RAM is temporary memory used by your system to run applications."}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in desktop please", "output": "{\"command\": \"ls ~/Desktop | wc -l\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find process chrome and kill it please", "output": "{\"command\": \"pkill -f Chrome\", \"command_number\": \"last\"}"}
+{"instruction": "what is my disk space please", "output": "{\"command\": \"df -h /\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "open youtube in chrome please", "output": "{\"command\": \"open -a \\\"Google Chrome\\\" https://youtube.com\", \"command_number\": \"last\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "how many files are in documents (after command output) please", "output": "There are X files in the specified directory."}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "find process node and kill it please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check cpu usage please", "output": "{\"command\": \"top -l 1 | grep CPU\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what is disk space please", "output": "Disk space refers to the total storage capacity available on your drive."}
+{"instruction": "what is cpu please", "output": "CPU stands for Central Processing Unit, responsible for executing instructions."}

@@ -1,0 +1,500 @@
+{"instruction": "which application is consuming most memory", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory (after command output)", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show app using highest ram", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show app using highest ram (after command output)", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "what process is using the most memory", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what process is using the most memory (after command output)", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "top memory consuming application", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application (after command output)", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which app is consuming most cpu", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which app is consuming most cpu (after command output)", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "show highest cpu process", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show highest cpu process (after command output)", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "top cpu consuming process", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process (after command output)", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "which application is sending data out of my network", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is sending data out of my network (after command output)", "output": "The listed processes above have active network connections."}
+{"instruction": "show process using most network bandwidth", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show process using most network bandwidth (after command output)", "output": "The listed processes above have active network connections."}
+{"instruction": "which process has open internet connections", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process has open internet connections (after command output)", "output": "The listed processes above have active network connections."}
+{"instruction": "which application is behaving weirdly", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is behaving weirdly (after command output)", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "detect abnormal process activity", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "detect abnormal process activity (after command output)", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "find suspicious processes", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find suspicious processes (after command output)", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "is any process consuming too many resources", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources (after command output)", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "investigate chrome memory usage", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "check node server resource usage", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check node server resource usage", "output": "{\"command\": \"ps -o %cpu,%mem= -p $(pgrep -f node)\", \"command_number\": \"last\"}"}
+{"instruction": "which process is using most disk", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process is using most disk (after command output)", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "show disk intensive apps", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps (after command output)", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "top memory consuming application please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process has open internet connections please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "detect abnormal process activity (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "find suspicious processes (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which application is sending data out of my network please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process has open internet connections please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "find suspicious processes please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "which process has open internet connections please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is behaving weirdly please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is behaving weirdly (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which application is sending data out of my network (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "what process is using the most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which application is consuming most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show app using highest ram please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "detect abnormal process activity (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show highest cpu process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "which application is sending data out of my network (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "show app using highest ram please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show highest cpu process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is sending data out of my network (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "which process has open internet connections please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which app is consuming most cpu please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which application is consuming most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "top cpu consuming process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show process using most network bandwidth please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"ps -o %cpu,%mem= -p $(pgrep -f node)\", \"command_number\": \"last\"}"}
+{"instruction": "find suspicious processes please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "detect abnormal process activity (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which process has open internet connections please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is behaving weirdly (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which process has open internet connections (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "find suspicious processes please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which app is consuming most cpu (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "which application is sending data out of my network (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "show highest cpu process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process has open internet connections (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show highest cpu process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "show highest cpu process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "detect abnormal process activity (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "show process using most network bandwidth please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show highest cpu process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "detect abnormal process activity (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which application is sending data out of my network (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "top memory consuming application please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show process using most network bandwidth (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "find suspicious processes (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find suspicious processes (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "which application is behaving weirdly (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which application is sending data out of my network please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is behaving weirdly please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show process using most network bandwidth please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what process is using the most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which app is consuming most cpu (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "which application is sending data out of my network please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show app using highest ram please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is behaving weirdly please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find suspicious processes (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "show highest cpu process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "show highest cpu process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which application is behaving weirdly (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "which process has open internet connections please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"ps -o %cpu,%mem= -p $(pgrep -f node)\", \"command_number\": \"last\"}"}
+{"instruction": "show highest cpu process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"ps -o %cpu,%mem= -p $(pgrep -f node)\", \"command_number\": \"last\"}"}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which application is sending data out of my network (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "which application is sending data out of my network (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "which application is sending data out of my network (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "which application is behaving weirdly (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which application is behaving weirdly (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which application is sending data out of my network please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "which app is consuming most cpu (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "show highest cpu process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find suspicious processes please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "top cpu consuming process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which app is consuming most cpu please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process has open internet connections please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which process has open internet connections (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"ps -o %cpu,%mem= -p $(pgrep -f node)\", \"command_number\": \"last\"}"}
+{"instruction": "which process has open internet connections please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which app is consuming most cpu please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which app is consuming most cpu please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is sending data out of my network please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process has open internet connections (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"ps -o %cpu,%mem= -p $(pgrep -f node)\", \"command_number\": \"last\"}"}
+{"instruction": "find suspicious processes please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "which app is consuming most cpu (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "which app is consuming most cpu please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show app using highest ram please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find suspicious processes please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process has open internet connections (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "which app is consuming most cpu (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "show app using highest ram please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process is using most disk please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which application is behaving weirdly please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"ps -o %cpu,%mem= -p $(pgrep -f node)\", \"command_number\": \"last\"}"}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which process is using most disk please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show app using highest ram please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "what process is using the most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show process using most network bandwidth (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "show highest cpu process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process has open internet connections (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "which application is behaving weirdly please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is behaving weirdly please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "which app is consuming most cpu please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"ps -o %cpu,%mem= -p $(pgrep -f node)\", \"command_number\": \"last\"}"}
+{"instruction": "which process has open internet connections (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "top cpu consuming process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which process is using most disk please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which app is consuming most cpu please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "detect abnormal process activity (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is sending data out of my network (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show process using most network bandwidth please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "show app using highest ram please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which app is consuming most cpu (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is behaving weirdly (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show highest cpu process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "show highest cpu process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which process has open internet connections please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show app using highest ram please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is behaving weirdly (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which application is behaving weirdly (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "detect abnormal process activity (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show highest cpu process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "detect abnormal process activity (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "show highest cpu process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "show highest cpu process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find suspicious processes please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show app using highest ram please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which application is sending data out of my network (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "show process using most network bandwidth (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "show process using most network bandwidth please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is sending data out of my network please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "top cpu consuming process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is sending data out of my network please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process is using most disk please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "find suspicious processes (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "find suspicious processes please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which app is consuming most cpu please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "top cpu consuming process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show process using most network bandwidth please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "which app is consuming most cpu (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is sending data out of my network (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "which process has open internet connections (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process has open internet connections (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "which application is behaving weirdly (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which application is sending data out of my network (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "which application is sending data out of my network please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which process is using most disk please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "what process is using the most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which app is consuming most cpu please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show highest cpu process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"ps -o %cpu,%mem= -p $(pgrep -f node)\", \"command_number\": \"last\"}"}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which app is consuming most cpu (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which process has open internet connections (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show highest cpu process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show process using most network bandwidth (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show highest cpu process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show process using most network bandwidth please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which process has open internet connections (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "find suspicious processes (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which application is consuming most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"ps -o %mem= -p $(pgrep -f Chrome)\", \"command_number\": \"last\"}"}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show process using most network bandwidth (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "which application is sending data out of my network (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "show highest cpu process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "find suspicious processes (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which app is consuming most cpu (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "show highest cpu process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show process using most network bandwidth please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which application is consuming most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "detect abnormal process activity (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "show process using most network bandwidth (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"ps -o %cpu,%mem= -p $(pgrep -f node)\", \"command_number\": \"last\"}"}
+{"instruction": "detect abnormal process activity (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show disk intensive apps please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show process using most network bandwidth please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show disk intensive apps please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what process is using the most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "find suspicious processes please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show app using highest ram please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show highest cpu process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which app is consuming most cpu please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show highest cpu process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what process is using the most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is behaving weirdly (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which process has open internet connections (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "which process is using most disk (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "show process using most network bandwidth (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "which process has open internet connections please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"ps -o %cpu,%mem= -p $(pgrep -f node)\", \"command_number\": \"last\"}"}
+{"instruction": "top memory consuming application please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show process using most network bandwidth please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show app using highest ram please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what process is using the most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "which process is using most disk please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "detect abnormal process activity please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is consuming most memory please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what process is using the most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "find suspicious processes (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top cpu consuming process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "which process has open internet connections (after command output) please", "output": "The listed processes above have active network connections."}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"ps -o %cpu,%mem= -p $(pgrep -f node)\", \"command_number\": \"last\"}"}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "which app is consuming most cpu (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "top memory consuming application (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which process is using most disk please", "output": "{\"command\": \"iotop -o\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show process using most network bandwidth please", "output": "{\"command\": \"lsof -i -n -P\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show disk intensive apps (after command output) please", "output": "The above processes are performing the most disk I/O operations."}
+{"instruction": "is any process consuming too many resources (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "show app using highest ram (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show highest cpu process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "is any process consuming too many resources please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show highest cpu process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "which app is consuming most cpu please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "what process is using the most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "show highest cpu process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "which application is consuming most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}
+{"instruction": "top cpu consuming process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "top memory consuming application please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "find suspicious processes (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "find suspicious processes please", "output": "{\"command\": \"top -l 1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show app using highest ram please", "output": "{\"command\": \"ps aux | sort -nrk 4 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"ps -o %cpu,%mem= -p $(pgrep -f node)\", \"command_number\": \"last\"}"}
+{"instruction": "top cpu consuming process please", "output": "{\"command\": \"ps aux | sort -nrk 3 | head -1\", \"command_number\": \"intermediate\"}"}
+{"instruction": "check node server resource usage please", "output": "{\"command\": \"pgrep -f node\", \"command_number\": \"intermediate\"}"}
+{"instruction": "which application is behaving weirdly (after command output) please", "output": "Based on the output, review processes with unusually high CPU or memory usage."}
+{"instruction": "investigate chrome memory usage please", "output": "{\"command\": \"pgrep -f Chrome\", \"command_number\": \"intermediate\"}"}
+{"instruction": "show highest cpu process (after command output) please", "output": "The above process is currently consuming the highest CPU resources."}
+{"instruction": "what process is using the most memory (after command output) please", "output": "The above process is currently consuming the highest percentage of memory."}

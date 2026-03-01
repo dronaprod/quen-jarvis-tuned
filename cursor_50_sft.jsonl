@@ -1,0 +1,50 @@
+{"instruction": "open cursor", "output": "{\"command\": \"open -a \\\"Cursor\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "launch cursor", "output": "{\"command\": \"open -a \\\"Cursor\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "start cursor", "output": "{\"command\": \"open -a \\\"Cursor\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "run cursor", "output": "{\"command\": \"open -a \\\"Cursor\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "please open cursor", "output": "{\"command\": \"open -a \\\"Cursor\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "close cursor", "output": "{\"command\": \"pkill -f \\\"Cursor\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "quit cursor", "output": "{\"command\": \"pkill -f \\\"Cursor\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "terminate cursor", "output": "{\"command\": \"pkill -f \\\"Cursor\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "exit cursor", "output": "{\"command\": \"pkill -f \\\"Cursor\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "force close cursor", "output": "{\"command\": \"pkill -f \\\"Cursor\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "open ~/Desktop in cursor", "output": "{\"command\": \"cursor ~/Desktop\", \"command_number\": \"last\"}"}
+{"instruction": "open ~/Documents in cursor", "output": "{\"command\": \"cursor ~/Documents\", \"command_number\": \"last\"}"}
+{"instruction": "open ~/Downloads in cursor", "output": "{\"command\": \"cursor ~/Downloads\", \"command_number\": \"last\"}"}
+{"instruction": "open . in cursor", "output": "{\"command\": \"cursor .\", \"command_number\": \"last\"}"}
+{"instruction": "open ~/Projects in cursor", "output": "{\"command\": \"cursor ~/Projects\", \"command_number\": \"last\"}"}
+{"instruction": "create file main.py and open in cursor", "output": "{\"command\": \"touch main.py\", \"command_number\": \"intermediate\"}"}
+{"instruction": "create file main.py and open in cursor", "output": "{\"command\": \"cursor main.py\", \"command_number\": \"last\"}"}
+{"instruction": "create file app.js and open in cursor", "output": "{\"command\": \"touch app.js\", \"command_number\": \"intermediate\"}"}
+{"instruction": "create file app.js and open in cursor", "output": "{\"command\": \"cursor app.js\", \"command_number\": \"last\"}"}
+{"instruction": "create file index.html and open in cursor", "output": "{\"command\": \"touch index.html\", \"command_number\": \"intermediate\"}"}
+{"instruction": "create file index.html and open in cursor", "output": "{\"command\": \"cursor index.html\", \"command_number\": \"last\"}"}
+{"instruction": "initialize git repository", "output": "{\"command\": \"git init\", \"command_number\": \"last\"}"}
+{"instruction": "add all files to git", "output": "{\"command\": \"git add .\", \"command_number\": \"last\"}"}
+{"instruction": "commit changes", "output": "{\"command\": \"git commit -m \\\"update\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "push to remote", "output": "{\"command\": \"git push\", \"command_number\": \"last\"}"}
+{"instruction": "check git status", "output": "{\"command\": \"git status\", \"command_number\": \"last\"}"}
+{"instruction": "install npm dependencies", "output": "{\"command\": \"npm install\", \"command_number\": \"last\"}"}
+{"instruction": "start node app", "output": "{\"command\": \"node app.js\", \"command_number\": \"last\"}"}
+{"instruction": "run python file main.py", "output": "{\"command\": \"python3 main.py\", \"command_number\": \"last\"}"}
+{"instruction": "create virtual environment", "output": "{\"command\": \"python3 -m venv venv\", \"command_number\": \"last\"}"}
+{"instruction": "what is cursor", "output": "Cursor is an AI-powered code editor built on top of VS Code."}
+{"instruction": "how to use cursor ai", "output": "You can use Cursor AI to edit and generate code using natural language prompts."}
+{"instruction": "what is git", "output": "Git is a distributed version control system used to track code changes."}
+{"instruction": "open . in cursor", "output": "{\"command\": \"cursor .\", \"command_number\": \"last\"}"}
+{"instruction": "initialize git repository", "output": "{\"command\": \"git init\", \"command_number\": \"last\"}"}
+{"instruction": "open ~/Downloads in cursor", "output": "{\"command\": \"cursor ~/Downloads\", \"command_number\": \"last\"}"}
+{"instruction": "check git status", "output": "{\"command\": \"git status\", \"command_number\": \"last\"}"}
+{"instruction": "close cursor", "output": "{\"command\": \"pkill -f \\\"Cursor\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "terminate cursor", "output": "{\"command\": \"pkill -f \\\"Cursor\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "open . in cursor", "output": "{\"command\": \"cursor .\", \"command_number\": \"last\"}"}
+{"instruction": "create file index.html and open in cursor", "output": "{\"command\": \"cursor index.html\", \"command_number\": \"last\"}"}
+{"instruction": "how to use cursor ai", "output": "You can use Cursor AI to edit and generate code using natural language prompts."}
+{"instruction": "check git status", "output": "{\"command\": \"git status\", \"command_number\": \"last\"}"}
+{"instruction": "check git status", "output": "{\"command\": \"git status\", \"command_number\": \"last\"}"}
+{"instruction": "open cursor", "output": "{\"command\": \"open -a \\\"Cursor\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "create file app.js and open in cursor", "output": "{\"command\": \"touch app.js\", \"command_number\": \"intermediate\"}"}
+{"instruction": "quit cursor", "output": "{\"command\": \"pkill -f \\\"Cursor\\\"\", \"command_number\": \"last\"}"}
+{"instruction": "check git status", "output": "{\"command\": \"git status\", \"command_number\": \"last\"}"}
+{"instruction": "open ~/Downloads in cursor", "output": "{\"command\": \"cursor ~/Downloads\", \"command_number\": \"last\"}"}
+{"instruction": "create file index.html and open in cursor", "output": "{\"command\": \"cursor index.html\", \"command_number\": \"last\"}"}
